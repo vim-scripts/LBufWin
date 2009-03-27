@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2593
+
+This plugin contains one command:                                             
+                                                                              
+:Ls |pattern|                                                                 
+                                                                              
+The command creates a location list containing all of the currently loaded    
+buffers in vim.  It takes one (optional) argument.  If it is supplied, it is  
+treated as a pattern, and only buffers matching that pattern will be          
+displayed.                                                                    
+                                                                              
+Location lists are a feature of Vim 7 and up.  Please see :he location-list if
+you are curious.                                                              
+
+A blog post with more information and a video demo are at http://blog.coryechols.net/2009/03/vim-script-buffer-select-in-window.html
